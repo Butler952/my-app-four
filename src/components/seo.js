@@ -44,6 +44,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: title,
         },
         {
+          property: `og:url`,
+          content: `https://www.aaronbutlerdesign.co.uk/`,
+        },
+        {
           property: `og:description`,
           content: metaDescription,
         },
